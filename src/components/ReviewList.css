@@ -1,0 +1,41 @@
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.review-list-empty {
+  background-color: rgb(255 255 255 / 0.8);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  padding: 3rem;
+  text-align: center;
+  border: 1px solid rgb(255 255 255 / 0.2);
+}
+
+.review-list-empty-icon {
+  width: 5rem;
+  height: 5rem;
+  background: linear-gradient(to bottom right, rgb(243 244 246), rgb(229 231 235));
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.review-list-empty-title {
+  color: rgb(75 85 99);
+  margin-bottom: 0.5rem;
+}
+
+.review-list-empty-description {
+  color: rgb(107 114 128);
+}
+
+.review-list-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}

@@ -1,0 +1,225 @@
+.review-form {
+  background-color: rgb(255 255 255 / 0.8);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  padding: 2rem;
+  max-width: 42rem;
+  margin: 0 auto;
+  border: 1px solid rgb(255 255 255 / 0.2);
+}
+
+.review-form-movie-info {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(to right, rgb(250 245 255), rgb(252 231 243));
+  border-radius: 0.75rem;
+  border: 2px solid rgb(233 213 255);
+}
+
+.review-form-movie-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.review-form-movie-poster {
+  width: 5rem;
+  height: 7.5rem;
+  background-color: rgb(229 231 235);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  flex-shrink: 0;
+}
+
+.review-form-movie-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review-form-movie-details {
+  flex: 1;
+}
+
+.review-form-movie-title {
+  margin-bottom: 0.5rem;
+}
+
+.review-form-movie-director {
+  color: rgb(75 85 99);
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.review-form-movie-year {
+  color: rgb(107 114 128);
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.review-form-movie-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.review-form-movie-genre {
+  padding: 0.25rem 0.5rem;
+  background-color: rgb(243 232 255);
+  color: rgb(147 51 234);
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.review-form-field {
+  margin-bottom: 1.5rem;
+}
+
+.review-form-label {
+  display: block;
+  color: rgb(55 65 81);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.review-form-label-icon {
+  width: 2rem;
+  height: 2rem;
+  background: linear-gradient(to bottom right, rgb(59 130 246), rgb(147 51 234));
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.875rem;
+}
+
+.review-form-input {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border: 2px solid rgb(229 231 235);
+  border-radius: 0.75rem;
+  outline: none;
+  background-color: rgb(255 255 255 / 0.5);
+  backdrop-filter: blur(4px);
+  transition: all 0.2s;
+}
+
+.review-form-input:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
+  box-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  border-color: transparent;
+}
+
+.review-form-rating-container {
+  background: linear-gradient(to bottom right, rgb(254 243 199), rgb(254 215 170));
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid rgb(252 211 77);
+}
+
+.review-form-rating-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.review-form-rating-star {
+  transition: all 0.2s;
+}
+
+.review-form-rating-star:hover {
+  transform: scale(1.25);
+}
+
+.review-form-rating-star:active {
+  transform: scale(0.95);
+}
+
+.review-form-rating-display {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.review-form-rating-value {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.review-form-rating-number {
+  font-size: 1.5rem;
+  color: rgb(217 119 6);
+}
+
+.review-form-rating-max {
+  color: rgb(107 114 128);
+}
+
+.review-form-textarea {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border: 2px solid rgb(229 231 235);
+  border-radius: 0.75rem;
+  outline: none;
+  background-color: rgb(255 255 255 / 0.5);
+  backdrop-filter: blur(4px);
+  transition: all 0.2s;
+  resize: none;
+}
+
+.review-form-textarea:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
+  box-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  border-color: transparent;
+}
+
+.review-form-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.review-form-cancel-btn {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  color: rgb(55 65 81);
+  background-color: rgb(229 231 235);
+  border-radius: 0.75rem;
+  transition: all 0.2s;
+}
+
+.review-form-cancel-btn:hover {
+  background-color: rgb(209 213 219);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.review-form-submit-btn {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  color: white;
+  background: linear-gradient(to right, rgb(37 99 235), rgb(147 51 234));
+  border-radius: 0.75rem;
+  transition: all 0.2s;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  transform: scale(1);
+}
+
+.review-form-submit-btn:hover {
+  background: linear-gradient(to right, rgb(29 78 216), rgb(126 34 206));
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  transform: scale(1.05);
+}
+
+.review-form-label-icon-rating {
+  background: linear-gradient(to bottom right, rgb(245 158 11), rgb(249 115 22));
+}
